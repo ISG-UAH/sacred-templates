@@ -1,6 +1,6 @@
 # sacred-templates
 
-Sacred templates for ISG Machine Learning experiments. 
+Sacred templates for ISG Machine Learning and experimental algorithmics experiments. 
 
 ## Using Sacred
 
