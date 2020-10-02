@@ -35,5 +35,7 @@ python scikit-sacred.py print_config
 ## Repository files
 
 *scikit-sacred.py*: Scikit-learn with Sacred and MongoDB observer example.
+
 *keras-sacred.py*: Keras with Sacred and MongoDB observer example.
+
 *notebook-keras-sacred.ipynb*: Notebook with a Keras train model.
