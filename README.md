@@ -42,10 +42,11 @@ python scikit-sacred.py print_config
 
 ## Omniboard local execution
 
-To execute Omniboard locally, you hust have docker un your machine, once this precondition is satisfied, running Omniboard is a pice of case:
+To execute Omniboard locally, you hust have docker un your machine, once this precondition is satisfied, running Omniboard is a piece of cake:
 
 ```
-docker run --rm -p 9000:9000 --name omniboard --net=host -e MONGO_URI=mongodb://<mongo-user>:<mongo-password>@<host>:27017/<database>?authMechanism=SCRAM-SHA-1 vivekratnavel/omniboard
+docker run --name omniboard --net=host -e MONGO_URI=mongodb://<mongo-user>:<mongo-passwd>@<host>:27017/<mongo-db>?authMechanism=SCRAM-SHA-1 vivekratnavel/omniboard
 ```
-There should be now an Omniboard instance running on localhost:9000.
+
+There should be now an Omniboard instance running on *localhost:9000*.
 
