@@ -55,3 +55,5 @@ There should be now an Omniboard instance running on *localhost:9000*.
 ```
 docker run -it --rm --name mongo-express --network host -e ME_CONFIG_BASICAUTH_USERNAME="" -e ME_CONFIG_MONGODB_SERVER="myServer" -e ME_CONFIG_MONGODB_AUTH_DATABASE="myDatabase" -e ME_CONFIG_MONGODB_AUTH_USERNAME="myUser" -e ME_CONFIG_MONGODB_AUTH_PASSWORD="myPassword" mongo-express
 ```
+
+Mongo Expresss should be available on *localhost:8081*.
