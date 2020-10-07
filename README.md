@@ -39,3 +39,13 @@ python scikit-sacred.py print_config
 *keras-sacred.py*: Keras with Sacred and MongoDB observer example.
 
 *notebook-keras-sacred.ipynb*: Notebook with a Keras train model.
+
+## Omniboard local execution
+
+To execute Omniboard locally, you hust have docker un your machine, once this precondition is satisfied, running Omniboard is a pice of case:
+
+```
+docker run --rm -p 9000:9000 --name omniboard --net=host -e MONGO_URI=mongodb://<mongo-user>:<mongo-password>@<host>:27017/<database>?authMechanism=SCRAM-SHA-1 vivekratnavel/omniboard
+```
+
+
