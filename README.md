@@ -2,6 +2,14 @@
 
 Sacred templates for ISG Machine Learning and experimental algorithmics experiments. 
 
+## Repository files
+
+*scikit-sacred.py*: Scikit-learn with Sacred and MongoDB observer example.
+
+*keras-sacred.py*: Keras with Sacred and MongoDB observer example.
+
+*notebook-keras-sacred.ipynb*: Notebook with a Keras train model.
+
 ## Using Sacred
 
 Command-line arguments.
@@ -32,13 +40,7 @@ In case you need to debug your configuration
 ```
 python scikit-sacred.py print_config
 ```
-## Repository files
 
-*scikit-sacred.py*: Scikit-learn with Sacred and MongoDB observer example.
-
-*keras-sacred.py*: Keras with Sacred and MongoDB observer example.
-
-*notebook-keras-sacred.ipynb*: Notebook with a Keras train model.
 
 ## Omniboard local execution
 
