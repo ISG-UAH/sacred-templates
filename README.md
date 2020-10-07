@@ -50,3 +50,5 @@ docker run --name omniboard --net=host -e MONGO_URI=mongodb://<mongo-user>:<mong
 
 There should be now an Omniboard instance running on *localhost:9000*.
 
+## Manage MongoDB database
+
