@@ -5,7 +5,7 @@ Sacred templates for ISG Machine Learning and experimental algorithmics experime
 ## Install Sacred
 
 ```
-pip install sared pymongo
+pip install sacred pymongo
 ```
 
 ## Repository files
