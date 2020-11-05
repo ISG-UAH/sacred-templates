@@ -2,6 +2,12 @@
 
 Sacred templates for ISG Machine Learning and experimental algorithmics experiments. 
 
+## Install Sacred
+
+```
+pip install sared pymongo
+```
+
 ## Repository files
 
 *scikit-sacred.py*: Scikit-learn with Sacred and MongoDB observer example.
