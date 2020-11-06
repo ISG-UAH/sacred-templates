@@ -12,7 +12,7 @@ pip install sacred pymongo
 
 ## Repository files
 
-*scikit-sacred.py*: Scikit-learn with Sacred and MongoDB observer example.
+*scikit-sacred.py*: Scikit-learn with Sacred and MongoDB observer example. This is the most complete example, with some Sacred features not included in the others.
 
 *keras-sacred.py*: Keras with Sacred and MongoDB observer example.
 
