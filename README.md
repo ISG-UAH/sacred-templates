@@ -67,3 +67,21 @@ docker run -it --rm --name mongo-express --network host -e ME_CONFIG_BASICAUTH_U
 ```
 
 Mongo Expresss should be available on *localhost:8081*.
+
+Stop the container:
+
+```
+docker stop <container-id>
+```
+
+Run the container:
+
+```
+docker run <container-id>
+```
+
+or remove it:
+
+```
+docker container rm <container-id>
+```
