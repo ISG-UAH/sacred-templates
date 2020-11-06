@@ -17,7 +17,6 @@ def cfg():
     gamma = 0.7
     kernel = "rbf"
     seed = 42
-    text = "Hello"
 
 
 @ex.capture
