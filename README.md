@@ -2,7 +2,7 @@
 
 Sacred templates for ISG Machine Learning and experimental algorithmics experiments. 
 
-Sacred website contains a (Quickstart guide)[https://sacred.readthedocs.io/en/stable/quickstart.html] that you should read.
+Sacred website contains a [Quickstart guide](https://sacred.readthedocs.io/en/stable/quickstart.html) that you should read.
 
 ## Install Sacred
 
