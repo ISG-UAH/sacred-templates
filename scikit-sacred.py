@@ -16,13 +16,13 @@ def cfg():
     C = 1.0
     gamma = 0.7
     kernel = "rbf"
-    seed = 42
 
 @ex.named_config
 def cfgAlternativo():
     C = 2.0
     gamma = 0.5
     kernel = "linear"
+    seed = 42
 
 @ex.capture
 def get_model(C, gamma, kernel):
