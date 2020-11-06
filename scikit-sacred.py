@@ -40,6 +40,9 @@ def run():
     score = clf.score(X_test, y_test)
     ex.log_scalar("score", score)
 
+    # Store datasets in Sacred (not tested)
+    # ex.add_resource("dataset.csv")
+    
     # We also can store our trained model
     # pickle.dump(clf, open("mymodel.p", "wb"))
     # ex.add_artifact("mymodel.p")
