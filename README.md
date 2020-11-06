@@ -37,10 +37,10 @@ From Sacred documentation.
 ./example.py with 'message="Hello Bob!"'
 ```
 
-Configuration can also be stored in a file (not tested).
+Configuration can also be stored in a file.
 
 ```
-python scikit-sacred.py with configuration.json
+python scikit-sacred.py print_config with config.json
 ```
 
 In case you need to debug your configuration
