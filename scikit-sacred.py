@@ -18,16 +18,18 @@ def cfg():
     kernel = "rbf"
     seed = 42
 
+@ex.named_config
+def cfgAlternativo():
+    C = 2.0
+    gamma = 0.5
+    kernel = "linear"
 
 @ex.capture
 def get_model(C, gamma, kernel):
     return svm.SVC(C=C, kernel=kernel, gamma=gamma)
 
-
 @ex.automain  # Using automain to enable command line integration.
-def run(text):
-    print(text)
-
+def run():
     X, y = datasets.load_breast_cancer(return_X_y=True)
     X_train, X_test, y_train, y_test = model_selection.train_test_split(
         X, y, test_size=0.2
